@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Intuition Notes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Intuition Notes</h1>
+<p>Ideas about tech, money, creativity & life</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Tech</a>
+<a href="#">Finance</a>
+<a href="#">Ideas</a>
+<a href="#">About</a>
+</nav>
+
+<section class="hero">
+<h2>Small Ideas. Big Insights.</h2>
+<p>A digital notebook exploring technology, creativity, and everyday thinking.</p>
+</section>
+
+<main class="posts">
+
+<article class="card">
+<h3><a href="post.html">Why Tiny Habits Create Huge Results</a></h3>
+<p>Small daily improvements compound into massive long-term change.</p>
+</article>
+
+<article class="card">
+<h3><a href="post.html">AI and the Future of Creative Work</a></h3>
+<p>How artificial intelligence is becoming a thinking partner.</p>
+</article>
+
+<article class="card">
+<h3><a href="post.html">The Power of Intuition</a></h3>
+<p>Learning to trust the quiet signals of your mind.</p>
+</article>
+
+</main>
+
+<section class="about">
+
+<h2>About</h2>
+
+<p>
+Intuition Notes is written by Tanner Campbell.  
+This blog explores ideas about technology, creativity,
+finance, and personal growth.
+</p>
+
+</section>
+
+<footer>
+<p>© 2026 Intuition Notes</p>
+</footer>
+
+</body>
+</html>
+ 

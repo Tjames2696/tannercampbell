@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog Post | Intuition Notes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Intuition Notes</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="#">Tech</a>
+<a href="#">Finance</a>
+<a href="#">Ideas</a>
+</nav>
+
+<main class="post-page">
+
+<h2>Why Tiny Habits Create Huge Results</h2>
+
+<p class="meta">Written by Tanner Campbell</p>
+
+<p>
+Most people think success comes from massive change.
+In reality, small improvements repeated daily compound
+into powerful long-term results.
+</p>
+
+<p>
+Reading a few pages every day, writing a paragraph,
+or learning one small idea can completely transform
+your life over time.
+</p>
+
+<p>
+Consistency beats intensity.
+</p>
+
+</main>
+
+<footer>
+<p>© 2026 Intuition Notes</p>
+</footer>
+
+</body>
+</html>
+ 

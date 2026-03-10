@@ -1,67 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Intuition Notes</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Intuition Notes - A digital notebook exploring ideas about technology, creativity, finance, and personal growth.">
+  <meta name="keywords" content="technology, creativity, finance, personal growth, ideas, habits, intuition">
+  <meta name="author" content="Tanner Campbell">
+  
+  <!-- Open Graph for Social Sharing -->
+  <meta property="og:title" content="Intuition Notes - Ideas about Tech, Money, Creativity & Life">
+  <meta property="og:description" content="A digital notebook exploring technology, creativity, finance, and personal growth.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tannercampbell.com">
+  
+  <title>Intuition Notes - Tech, Money, Creativity & Life Ideas</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-<h1>Intuition Notes</h1>
-<p>Ideas about tech, money, creativity & life</p>
+  <h1><a href="index.html">Intuition Notes</a></h1>
+  <p>Ideas about tech, money, creativity & life</p>
 </header>
 
-<nav>
-<a href="#">Home</a>
-<a href="#">Tech</a>
-<a href="#">Finance</a>
-<a href="#">Ideas</a>
-<a href="#">About</a>
+<nav aria-label="Main Navigation">
+  <a href="index.html" class="nav-link active">Home</a>
+  <a href="#" class="nav-link">Tech</a>
+  <a href="#" class="nav-link">Finance</a>
+  <a href="#" class="nav-link">Ideas</a>
+  <a href="#about" class="nav-link">About</a>
 </nav>
 
 <section class="hero">
-<h2>Small Ideas. Big Insights.</h2>
-<p>A digital notebook exploring technology, creativity, and everyday thinking.</p>
+  <h2>Small Ideas. Big Insights.</h2>
+  <p>A digital notebook exploring technology, creativity, and everyday thinking.</p>
 </section>
 
-<main class="posts">
+<main class="posts" role="main">
 
-<article class="card">
-<h3><a href="post.html">Why Tiny Habits Create Huge Results</a></h3>
-<p>Small daily improvements compound into massive long-term change.</p>
-</article>
+  <article class="card">
+    <div class="card-meta">
+      <time datetime="2026-02-15">February 15, 2026</time>
+      <span class="read-time">5 min read</span>
+    </div>
+    <h3><a href="post-habits.html">Why Tiny Habits Create Huge Results</a></h3>
+    <p>Small daily improvements compound into massive long-term change. Learn how consistency beats intensity in achieving your goals.</p>
+    <a href="post-habits.html" class="read-more">Read Article →</a>
+  </article>
 
-<article class="card">
-<h3><a href="post.html">AI and the Future of Creative Work</a></h3>
-<p>How artificial intelligence is becoming a thinking partner.</p>
-</article>
+  <article class="card">
+    <div class="card-meta">
+      <time datetime="2026-02-08">February 8, 2026</time>
+      <span class="read-time">7 min read</span>
+    </div>
+    <h3><a href="post-ai.html">AI and the Future of Creative Work</a></h3>
+    <p>How artificial intelligence is becoming a thinking partner. Explore how creators are leveraging AI to enhance rather than replace human creativity.</p>
+    <a href="post-ai.html" class="read-more">Read Article →</a>
+  </article>
 
-<article class="card">
-<h3><a href="post.html">The Power of Intuition</a></h3>
-<p>Learning to trust the quiet signals of your mind.</p>
-</article>
+  <article class="card">
+    <div class="card-meta">
+      <time datetime="2026-02-01">February 1, 2026</time>
+      <span class="read-time">6 min read</span>
+    </div>
+    <h3><a href="post-intuition.html">The Power of Intuition</a></h3>
+    <p>Learning to trust the quiet signals of your mind. Discover how intuition works and why listening to it can lead to better decisions.</p>
+    <a href="post-intuition.html" class="read-more">Read Article →</a>
+  </article>
 
 </main>
 
-<section class="about">
-
-<h2>About</h2>
-
-<p>
-Intuition Notes is written by Tanner Campbell.  
-This blog explores ideas about technology, creativity,
-finance, and personal growth.
-</p>
-
+<section class="about" id="about">
+  <h2>About</h2>
+  <p>
+    Intuition Notes is written by Tanner Campbell. This blog explores ideas about technology, creativity, finance, and personal growth. Each article is designed to help you think differently about the world and make better decisions.
+  </p>
 </section>
 
 <footer>
-<p>© 2026 Intuition Notes</p>
+  <p>&copy; 2026 Intuition Notes. All rights reserved.</p>
 </footer>
 
 </body>
 </html>
- 
